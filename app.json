@@ -8,7 +8,7 @@
         "ramazan",
         "ezan"
     ],
-    "repository": "https://github.com/Gecekus/iftarsahur",
+    "repository": "https://github.com/Abhijayjack/iftar-sahurbot",
     "env": {
         "BOT_TOKEN": {
             "description": "@BotFather'dan alın",
