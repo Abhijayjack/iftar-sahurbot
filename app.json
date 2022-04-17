@@ -1,0 +1,47 @@
+{
+    "name": "IftarSahurBot",
+    "description": "iftar ve sahur vakitleri için basit telegram botu",
+    "keywords": [
+        "telegram",
+        "iftar",
+        "sahur",
+        "ramazan",
+        "ezan"
+    ],
+    "repository": "https://github.com/Gecekus/iftarsahur",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "@BotFather'dan alın",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "Botunuzun kullanıcı adı",
+            "required": true
+        },
+        "API_ID": {
+            "description": "https://my.telegram.org/apps adresinden alın",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "https://my.telegram.org/apps adresinden alın",
+            "required": true
+        },
+        "kanal": {
+            "description": "Kanal kullanıcı adı @ işareti olmadan",
+            "required": true
+        },
+        "sahib": {
+            "description": "Kendi kullanıcı adınız @ işareti olmadan",
+            "required": true 
+        },
+        "SUDO": {
+            "description": "Telegram id'niz",
+            "required": false
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
